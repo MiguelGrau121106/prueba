@@ -63,3 +63,5 @@ SELECT nombre, presupuesto FROM departamento ORDER BY presupuesto DESC LIMIT 1;
 SELECT COUNT(*) AS total_empleados FROM empleado;
 
 SELECT COUNT(*) AS empleados_con_segundo_apellido FROM empleado WHERE apellido2 IS NOT NULL;
+
+SELECT COUNT(*) AS empleados_con_segundo_apellido FROM empleado WHERE apellido2 IS NOT NULL;
